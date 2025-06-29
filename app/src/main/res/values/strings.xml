@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Andy_Collection</string>
+    <string name="games">Games</string>
+    <string name="about">About</string>
+    <string name="consoles">Consoles</string>
+    <string name="welcome_to_andy_s_collection">Welcome to Andy\'s Collection</string>
 </resources>

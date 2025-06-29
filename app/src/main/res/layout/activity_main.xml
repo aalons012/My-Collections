@@ -5,15 +5,71 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#ef91a9">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:gravity="center"
+        android:text="@string/welcome_to_andy_s_collection"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="413dp"
+        android:layout_marginBottom="196dp"
+        android:src="@drawable/gamecube"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/consoles"
+        style="@style/optionButton"
+        android:layout_width="242dp"
+        android:layout_height="66dp"
+        android:onClick="onClickConsoles"
+        android:text="@string/consoles"
+        android:textSize="33sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="491dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/games"
+        android:layout_width="242dp"
+        android:layout_height="66dp"
+        android:onClick="onClickGames"
+        android:text="@string/games"
+        android:textSize="33sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="557dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="242dp"
+        android:layout_height="66dp"
+        android:onClick="onClickAbout"
+        android:text="@string/about"
+        android:textSize="33sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="623dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
