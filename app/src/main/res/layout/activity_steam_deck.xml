@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".wii"
+    tools:context=".SteamDeck"
     android:background="#ef91a9">
 
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_width="403dp"
         android:layout_height="249dp"
         android:layout_marginBottom="376dp"
-        android:src="@drawable/versions_of_wii"
+        android:src="@drawable/steamdeck"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="4dp" />
 
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="My Wii Colection"
+        android:text="Steam Deck"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         android:layout_width="328dp"
         android:layout_height="386dp"
         android:layout_marginBottom="36dp"
-        android:text="@string/wii_text"
+        android:text="After Many years Playing on the computer. and as i get older i barely have time to play at home as i now have a full time job and including a full time student. So if i dont have time to play, why not play on the go. And So i did... This is my 9th console that i have"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,11 +46,12 @@
         android:layout_width="107dp"
         android:layout_height="110dp"
         android:layout_marginBottom="36dp"
-        android:onClick="onClickBack"
+        android:onClick="onCslickBack"
         android:text="←"
         android:textSize="55sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
