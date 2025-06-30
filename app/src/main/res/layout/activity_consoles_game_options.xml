@@ -36,10 +36,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button style="@style/console_display_button" android:text="Gamecube" android:textSize="25sp"/>
-        <Button style="@style/console_display_button" android:text="PC/Steam" android:textSize="25sp" />
-        <Button style="@style/console_display_button" android:text="PS5" android:textSize="25sp"/>
-        <Button style="@style/console_display_button" android:text="DS" android:textSize="25sp"/>
+        <Button
+            style="@style/console_display_button"
+            android:text="Gamecube"
+            android:textSize="25sp"
+            android:onClick="onClickGamecube"/>
+        <Button
+            style="@style/console_display_button"
+            android:text="PC/Steam"
+            android:textSize="25sp"
+            android:onClick="onClickPC"/>
+        <Button
+            style="@style/console_display_button"
+            android:text="PS5"
+            android:textSize="25sp"
+            android:onClick="onClickPS"/>
+        <Button
+            style="@style/console_display_button"
+            android:text="DS"
+            android:textSize="25sp"
+            android:onClick="onClickDS"/>
     </GridLayout>
 
     <Button

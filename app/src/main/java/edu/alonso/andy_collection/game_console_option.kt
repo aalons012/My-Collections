@@ -1,5 +1,6 @@
 package edu.alonso.andy_collection
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
@@ -24,4 +25,12 @@ class game_console_option : AppCompatActivity() {
     fun onClickBack(view: View) {
         finish()
     }
+
+    fun onClickGamecube(view: View) {
+        val intent = Intent(this, console_gamecube_collection::class.java)
+        startActivity(intent)
+    }
+    fun onClickPC(view: View) {}
+    fun onClickPS(view: View) {}
+    fun onClickDS(view: View) {}
 }

@@ -36,7 +36,7 @@ class console_collection : AppCompatActivity() {
 
     }
     fun onClickGamecube(view: View) {
-        
+
     }
 
 }
