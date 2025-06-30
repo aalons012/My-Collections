@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="#ef91a9"
     android:orientation="vertical"
-    tools:context=".console_collection">
+    tools:context=".console_gamecube_collection">
 
     <!-- This will make the screen scrollable  -->
     <ScrollView
@@ -19,6 +20,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_marginTop="35dp">
+
             <GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -30,35 +32,35 @@
                     android:layout_width="208dp"
                     android:layout_height="230dp"
                     android:layout_row="0"
-                    android:src="@drawable/wii"/>
+                    android:src="@drawable/pokemon_xd"/>
                 <Button
-                    android:id="@+id/wii_button"
+                    android:id="@+id/pokemon_button"
                     android:layout_width="208dp"
                     android:layout_height="225dp"
                     android:layout_row="0"
                     android:layout_column="1"
-                    android:text="wii"
-                    android:textSize="45dp"
-                    android:onClick="onClickWii"/>
+                    android:text="Pokemon XD"
+                    android:textSize="30dp"
+                    android:onClick="onClickPokemon"/>
                 <ImageView
                     android:layout_width="208dp"
                     android:layout_height="230dp"
-                    android:src="@drawable/gamecube_image"
+                    android:src="@drawable/ssbm"
                     android:layout_row="1"
                     android:layout_column="0"/>
                 <Button
-                    android:id="@+id/gamecube_button"
+                    android:id="@+id/ssbm_button"
                     android:layout_width="208dp"
                     android:layout_height="225dp"
-                    android:text="gamecube"
+                    android:text="Super Smash Bros. Melee"
                     android:layout_row="1"
                     android:layout_column="1"
                     android:textSize="33dp"
-                    android:onClick="onClickGamecube"/>
+                    android:onClick="onClickssbm"/>
                 <ImageView
                     android:layout_width="208dp"
                     android:layout_height="230dp"
-                    android:src="@drawable/steamdeck"
+                    android:src="@drawable/wrestlemainia"
                     android:layout_row="2"
                     android:layout_column="0"/>
                 <Button
@@ -67,40 +69,39 @@
                     android:id="@+id/steamdeck_button"
                     android:layout_width="208dp"
                     android:layout_height="225dp"
-                    android:text="steamdeck"
-                    android:textSize="30dp"
-                    android:onClick="onClickSteamdeck"/>
+                    android:text="WWF WrestleMainia X8"
+                    android:textSize="24dp"
+                    android:onClick="onClickX"/>
                 <ImageView
                     android:layout_width="208dp"
                     android:layout_height="230dp"
-                    android:src="@drawable/switch2"
+                    android:src="@drawable/mkdd"
                     android:layout_row="3"
                     android:layout_column="0"/>
                 <Button
-                    android:id="@+id/switch_button"
+                    android:id="@+id/mkdd_button"
                     android:layout_width="208dp"
                     android:layout_height="225dp"
-                    android:text="switch2"
+                    android:text="Mario Kart: Double Dash"
                     android:textSize="30dp"
                     android:layout_row="3"
-                    android:onClick="onClickSwitch"/>
+                    android:onClick="onClickMkdd"/>
 
                 <ImageView
                     android:layout_width="214dp"
                     android:layout_height="194dp"
                     android:layout_row="4"
                     android:layout_column="0"
-                    android:src="@drawable/ps2" />
-
+                    android:src="@drawable/gc_zelda_wind_waker_p_8fbv6j" />
                 <Button
                     android:id="@+id/ps2_button"
                     android:layout_width="208dp"
                     android:layout_height="225dp"
                     android:layout_row="4"
                     android:layout_column="1"
-                    android:text="ps2"
+                    android:text="Legend of Zelda: The Wind Waker"
                     android:textSize="30dp"
-                    android:onClick="onClickPS"/>
+                    android:onClick="onClickZelda"/>
 
                 <Button
                     android:id="@+id/back"
@@ -114,6 +115,4 @@
             </GridLayout>
         </LinearLayout>
     </ScrollView>
-
-
 </LinearLayout>
