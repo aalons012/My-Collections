@@ -20,23 +20,22 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintVertical_bias="0.053" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="410dp"
         android:layout_height="413dp"
-        android:layout_marginBottom="196dp"
+        android:layout_marginBottom="228dp"
         android:src="@drawable/gamecube"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/consoles"
-        style="@style/optionButton"
         android:layout_width="242dp"
         android:layout_height="66dp"
         android:onClick="onClickConsoles"
@@ -45,7 +44,8 @@
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="491dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
 
     <Button
         android:id="@+id/games"
@@ -57,7 +57,8 @@
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="557dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/consoles"/>
 
     <Button
         android:id="@+id/about"
@@ -69,7 +70,8 @@
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="623dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/games"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
