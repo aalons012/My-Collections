@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wii"
+    android:background="#ef91a9">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="403dp"
+        android:layout_height="249dp"
+        android:layout_marginBottom="376dp"
+        android:src="@drawable/versions_of_wii"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My Wii Colection"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="386dp"
+        android:layout_marginBottom="36dp"
+        android:text="This was my Third ever console that i have ever gotten. But I didnt get the classic, nor modern version. What you are seeing in the left is a wii Mini. An East Coast (of the world) EXCLUSIVELY for North and South America, And Buget Friendly version of the Wii. that was my first wii. Bought it in 2012. Years Later in 2015-16. One of my Parents friends gifted me a Modern Wii, the One in the Right and the one that i got recently from a friend of mine, the classic version the white one in the middle "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="107dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="onClickBack"
+        android:text="←"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
