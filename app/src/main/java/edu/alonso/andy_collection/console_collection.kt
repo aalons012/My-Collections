@@ -1,6 +1,7 @@
 package edu.alonso.andy_collection
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,4 +18,14 @@ class console_collection : AppCompatActivity() {
             insets
         }
     }
+
+    fun onClickBack(view: View) {
+        finish()
+    }
+
+    fun onClickWii(view: View) {}
+    fun onClickPS(view: View) {}
+    fun onClickSwitch(view: View) {}
+    fun onClickSteamdeck(view: View) {}
+    fun onClickGamecube(view: View) {}
 }

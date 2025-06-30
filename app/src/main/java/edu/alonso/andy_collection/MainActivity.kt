@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickConsoles(view: View) {
+        startActivity(Intent(this, console_collection::class.java))
+        startActivity(intent)
 
     }
     fun onClickGames(view: View) {
