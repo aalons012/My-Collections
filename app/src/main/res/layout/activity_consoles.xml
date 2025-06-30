@@ -5,6 +5,54 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".consoles">
+    tools:context=".consoles"
+    android:background="#ef91a9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:text="Choose a Console Specific Game"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="81dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <GridLayout
+        android:id="@+id/cole_grid"
+        android:layout_width="389dp"
+        android:layout_height="373dp"
+        android:layout_margin="180dp"
+        android:layout_marginTop="164dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:useDefaultMargins="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button style="@style/console_display_button" android:text="Gamecube" android:textSize="25sp"/>
+        <Button style="@style/console_display_button" android:text="PC/Steam" android:textSize="25sp" />
+        <Button style="@style/console_display_button" android:text="PS5" android:textSize="25sp"/>
+        <Button style="@style/console_display_button" android:text="DS" android:textSize="25sp"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="107dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="44dp"
+        android:onClick="onClickBack"
+        android:text="←"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
