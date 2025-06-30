@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".consoles"
+    tools:context=".game_console_option"
     android:background="#ef91a9">
 
     <TextView
@@ -14,7 +14,7 @@
         android:gravity="center"
         android:layout_margin="40dp"
         android:text="Choose a Console Specific Game"
-        android:textSize="25sp"
+        android:textSize="35sp"
         tools:layout_editor_absoluteX="20dp"
         tools:layout_editor_absoluteY="81dp"
         app:layout_constraintLeft_toLeftOf="parent"
