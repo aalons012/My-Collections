@@ -19,10 +19,21 @@ class ps5_collection : AppCompatActivity() {
         }
     }
 
-    fun onClickElden(view: View) {}
-    fun onClickFFXVI(view: View) {}
-    fun onClickStray(view: View) {}
-    fun onClickABot(view: View) {}
-    fun onClickSP2(view: View) {}
-    fun onClickBack(view: View) {}
+    fun onClickElden(view: View) {
+
+    }
+    fun onClickFFXVI(view: View) {
+
+    }
+    fun onClickStray(view: View) {
+
+    }
+    fun onClickABot(view: View) {
+
+    }
+
+    fun onClickBack(view: View) {
+        finish()
+
+    }
 }
