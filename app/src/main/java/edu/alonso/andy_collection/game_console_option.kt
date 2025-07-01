@@ -39,6 +39,7 @@ class game_console_option : AppCompatActivity() {
         startActivity(intent)
     }
     fun onClickDS(view: View) {
-
+        val intent = Intent(this, ds_collection::class.java)
+        startActivity(intent)
     }
 }

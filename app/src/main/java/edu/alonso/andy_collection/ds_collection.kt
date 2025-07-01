@@ -20,7 +20,7 @@ class ds_collection : AppCompatActivity() {
     }
 
     fun onClickPokemonPt(view: View) {
-        
+
     }
     fun onClickpvz(view: View) {
 
