@@ -1,3 +1,7 @@
+/**
+ * BY Andy Alonso
+ * Project started in 6/25/2024
+ */
 package edu.alonso.andy_collection
 
 import android.content.Intent
