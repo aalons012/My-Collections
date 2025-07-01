@@ -27,10 +27,10 @@ class console_collection : AppCompatActivity() {
 
     }
     fun onClickSwitch(view: View) {
-
+        startActivity(Intent(this, Switch2::class.java))
     }
     fun onClickSteamdeck(view: View) {
-
+        startActivity(Intent(this, SteamDeck::class.java))
     }
     fun onClickGamecube(view: View) {
         startActivity(Intent(this, gamecube::class.java))
