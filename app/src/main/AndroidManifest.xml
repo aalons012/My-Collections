@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Andy_Collection"
         tools:targetApi="31">
         <activity
+            android:name=".Astro"
+            android:exported="false" />
+        <activity
+            android:name=".Stray"
+            android:exported="false" />
+        <activity
+            android:name=".Final_Fantasy"
+            android:exported="false" />
+        <activity
+            android:name=".EldenRing"
+            android:exported="false" />
+        <activity
             android:name=".Zelda"
             android:exported="false" />
         <activity
