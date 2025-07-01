@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#ef91a9"
     android:orientation="vertical"
-    tools:context=".console_gamecube_collection">
+    tools:context=".gamecube_collection">
 
     <!-- This will make the screen scrollable  -->
     <ScrollView
