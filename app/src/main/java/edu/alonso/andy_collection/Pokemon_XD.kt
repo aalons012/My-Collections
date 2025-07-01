@@ -1,6 +1,5 @@
 package edu.alonso.andy_collection
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
@@ -8,11 +7,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class gamecube_collection : AppCompatActivity() {
+class Pokemon_XD : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_gamecube_collection)
+        setContentView(R.layout.activity_pokemon_xd)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -20,23 +19,7 @@ class gamecube_collection : AppCompatActivity() {
         }
     }
 
-    fun onClickPokemon(view: View) {
-        startActivity(Intent(this, Pokemon_XD::class.java))
-    }
-    fun onClickssbm(view: View) {
-
-    }
-    fun onClickX(view: View) {
-
-    }
-    fun onClickMkdd(view: View) {
-
-    }
-    fun onClickZelda(view: View) {
-
-    }
     fun onClickBack(view: View) {
         finish()
-
     }
 }
