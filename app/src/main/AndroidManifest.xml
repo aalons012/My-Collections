@@ -12,78 +12,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Andy_Collection"
         tools:targetApi="31">
+
         <activity
-            android:name=".Astro"
+            android:name="edu.alonso.andy_collection.PS2"
             android:exported="false" />
         <activity
-            android:name=".Stray"
+            android:name="edu.alonso.andy_collection.Switch2"
             android:exported="false" />
         <activity
-            android:name=".Final_Fantasy"
+            android:name="edu.alonso.andy_collection.SteamDeck"
             android:exported="false" />
         <activity
-            android:name=".EldenRing"
+            android:name="edu.alonso.andy_collection.gamecube"
             android:exported="false" />
         <activity
-            android:name=".Zelda"
+            android:name="edu.alonso.andy_collection.wii"
             android:exported="false" />
         <activity
-            android:name=".MarioKart"
+            android:name="edu.alonso.andy_collection.console_collection"
             android:exported="false" />
         <activity
-            android:name=".WWF"
+            android:name="edu.alonso.andy_collection.About"
             android:exported="false" />
         <activity
-            android:name=".Melee"
-            android:exported="false" />
-        <activity
-            android:name=".Pokemon_XD"
-            android:exported="false" />
-        <activity
-            android:name=".ds_collection"
-            android:exported="false" />
-        <activity
-            android:name=".ps5_collection"
-            android:exported="false" />
-        <activity
-            android:name=".Steam_Collection"
-            android:exported="false" />
-        <activity
-            android:name=".PS2"
-            android:exported="false" />
-        <activity
-            android:name=".Switch2"
-            android:exported="false" />
-        <activity
-            android:name=".SteamDeck"
-            android:exported="false" />
-        <activity
-            android:name=".gamecube"
-            android:exported="false" />
-        <activity
-            android:name=".wii"
-            android:exported="false" />
-        <activity
-            android:name=".gamecube_collection"
-            android:exported="false" />
-        <activity
-            android:name=".console_collection"
-            android:exported="false" />
-        <activity
-            android:name=".game_console_option"
-            android:exported="false" />
-        <activity
-            android:name=".About"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name="edu.alonso.andy_collection.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="edu.alonso.andy_collection.GameDetailActivity"
+            android:label="Game Details"
+            android:parentActivityName="edu.alonso.andy_collection.GameListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.alonso.andy_collection.GameListActivity" />
+        </activity>
+
+        <activity
+            android:name="edu.alonso.andy_collection.GameListActivity"
+            android:label="Game List"
+            android:parentActivityName="edu.alonso.andy_collection.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.alonso.andy_collection.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>

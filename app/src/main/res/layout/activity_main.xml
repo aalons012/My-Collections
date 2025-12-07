@@ -51,7 +51,6 @@
         android:id="@+id/games"
         android:layout_width="242dp"
         android:layout_height="66dp"
-        android:onClick="onClickGames"
         android:text="@string/games"
         android:textSize="33sp"
         tools:layout_editor_absoluteX="84dp"
